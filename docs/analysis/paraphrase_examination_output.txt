@@ -1,0 +1,357 @@
+====================================================================================================
+BASELINE PARAPHRASING QUALITY EXAMINATION - ALL DATASETS
+====================================================================================================
+
+====================================================================================================
+BHCS - PARAPHRASING QUALITY EXAMINATION
+====================================================================================================
+
+📊 OVERVIEW:
+   Total cases: 10
+   Successful paraphrases: 10 (100.0%)
+   Failed paraphrases: 0 (0.0%)
+
+----------------------------------------------------------------------------------------------------
+CASE 0 - Rating: MODERATE
+----------------------------------------------------------------------------------------------------
+
+📝 ORIGINAL SENTENCE:
+   #L BKA Pre-operatively, she was started on vancomycin and zosyn, which was continued through POD#3
+
+📝 PARAPHRASED SENTENCE:
+   #L BKA Pre-operatively, she was started on vancomycin and zosyn, and these were continued through POD#3
+
+📊 CONSERVATIVENESS METRICS:
+   Word retention: 93.8%
+   Length change: 5.1%
+   Medical terms preserved: ✗ No
+   Words added: ['these', 'were']
+   Words removed: ['which']
+   Medical terms (orig): {'she', 'and', 'continued', 'through', 'zosyn', 'operatively', 'vancomycin', 'started', 'on', 'Pre', 'POD', 'which', 'was', 'BKA'}
+   Medical terms (para): {'were', 'she', 'and', 'these', 'continued', 'through', 'zosyn', 'operatively', 'vancomycin', 'started', 'on', 'Pre', 'POD', 'was', 'BKA'}
+
+📄 REPLACEMENT QUALITY:
+   ✓ Replacement successful
+
+📌 CONTEXT IN MODIFIED TEXT:
+   ...n. -L TMA site was monitored and continued to demarcate. Given that the remainder of her infectious workup was negative, she was scheduled for a BKA. **#L BKA Pre-operatively, she was started on vancomycin and zosyn, and these were continued through POD#3**. She underwent an uncomplicated left below-knee amputation on ___, and which she tolerated well. A proximal bone culture was sent, and showed no grow......
+
+----------------------------------------------------------------------------------------------------
+CASE 1 - Rating: MODERATE
+----------------------------------------------------------------------------------------------------
+
+📝 ORIGINAL SENTENCE:
+   She underwent bone marrow biopsy which was non-diagnostic
+
+📝 PARAPHRASED SENTENCE:
+   She underwent a non-diagnostic bone marrow biopsy.
+
+📊 CONSERVATIVENESS METRICS:
+   Word retention: 77.8%
+   Length change: 12.3%
+   Medical terms preserved: ✗ No
+   Words added: ['a']
+   Words removed: ['was', 'which']
+   Medical terms (orig): {'marrow', 'She', 'underwent', 'diagnostic', 'which', 'bone', 'was', 'non', 'biopsy'}
+   Medical terms (para): {'marrow', 'She', 'underwent', 'diagnostic', 'bone', 'non', 'biopsy'}
+
+📄 REPLACEMENT QUALITY:
+   ✓ Replacement successful
+
+📌 CONTEXT IN MODIFIED TEXT:
+   ... ACUTE CONDITIONS ======================== #DLBCL: #ENCOUNTER FOR CHEMOTHERAPY: PET-CT showed FDG-avid spleen, liver, bone marrow, and abdominal LNs. **She underwent a non-diagnostic bone marrow biopsy.** She then underwent another bone marrow biopsy with ___ which did show abnormal cells but there were too few to characterize. Given overall high suspi......
+
+----------------------------------------------------------------------------------------------------
+CASE 2 - Rating: MODERATE
+----------------------------------------------------------------------------------------------------
+
+📝 ORIGINAL SENTENCE:
+   # Anemia: Chronic microcytic anemia with baseline hct of 29; iron deficiency anemia vs anemia of chronic disease, CKD
+
+📝 PARAPHRASED SENTENCE:
+   Anemia: Baseline hct of 29 with chronic microcytic anemia; iron deficiency anemia vs anemia of chronic disease, CKD
+
+📊 CONSERVATIVENESS METRICS:
+   Word retention: 100.0%
+   Length change: 1.7%
+   Medical terms preserved: ✗ No
+   Medical terms (orig): {'microcytic', 'Chronic', 'deficiency', 'hct', 'disease', 'with', 'CKD', 'baseline', 'of', 'iron', 'chronic', 'anemia', 'Anemia', 'vs'}
+   Medical terms (para): {'microcytic', 'deficiency', 'hct', 'disease', 'with', 'CKD', 'Baseline', 'of', 'iron', 'chronic', 'anemia', 'Anemia', 'vs'}
+
+📄 REPLACEMENT QUALITY:
+   ✓ Replacement successful
+
+📌 CONTEXT IN MODIFIED TEXT:
+   ...scharge. It was thought that the increase in creatinine was 2/t Bactrim and it should be rechecked as an outpt to ensure that it returns to baseline. **Anemia: Baseline hct of 29 with chronic microcytic anemia; iron deficiency anemia vs anemia of chronic disease, CKD**. Continued ferrous sulfate/ascorbic acid. #Hyperlipidemia: Dontinued simvastatin #SSS s/p PPM: Recently interrogated in ___ in Device Clinic. Stable.......
+
+----------------------------------------------------------------------------------------------------
+CASE 3 - Rating: MODERATE
+----------------------------------------------------------------------------------------------------
+
+📝 ORIGINAL SENTENCE:
+   After discussion with her health care proxy, ___, any procedure was felt not to be within her goals of care and the decision was made to transition the patient to comfort measures only with a preference to transition to an ___ facility
+
+📝 PARAPHRASED SENTENCE:
+   Following discussion with her health care proxy, ___, it was felt that any procedure was not within her goals of care, and the decision was made to transition the patient to comfort measures only, with a preference to transition to an ___ facility
+
+📊 CONSERVATIVENESS METRICS:
+   Word retention: 93.5%
+   Length change: 5.1%
+   Medical terms preserved: ✗ No
+   Words added: ['following', 'it', 'that']
+   Words removed: ['after', 'be']
+   Medical terms (orig): {'preference', 'facility', 'and', 'of', 'transition', 'care', 'discussion', 'procedure', 'any', 'be', 'within', 'goals', 'comfort', 'proxy', 'health', 'After', 'not', 'was', 'made', 'decision', 'measures', 'her', 'the', 'patient', 'an', 'to', 'felt', 'with', 'only'}
+   Medical terms (para): {'preference', 'facility', 'and', 'of', 'transition', 'care', 'discussion', 'Following', 'procedure', 'any', 'within', 'goals', 'it', 'comfort', 'proxy', 'health', 'not', 'that', 'was', 'made', 'decision', 'measures', 'her', 'the', 'patient', 'an', 'to', 'felt', 'with', 'only'}
+
+📄 REPLACEMENT QUALITY:
+   ✓ Replacement successful
+
+📌 CONTEXT IN MODIFIED TEXT:
+   ... procedure would need to be scheduled. Per geriatrics, correction of her aortic stenosis would likely not significantly increase her quality of life. **Following discussion with her health care proxy, ___, it was felt that any procedure was not within her goals of care, and the decision was made to transition the patient to comfort measures only, with a preference to transition to an ___ facility**. # ___ on stage 3 CKD: Recent baseline Cr is ~0.8, with rise to 2.1. Initially this was attribu...
+
+----------------------------------------------------------------------------------------------------
+CASE 4 - Rating: MODERATE
+----------------------------------------------------------------------------------------------------
+
+📝 ORIGINAL SENTENCE:
+   Cultures subsequently grew Providencia ___
+
+📝 PARAPHRASED SENTENCE:
+   Subsequently, cultures grew Providencia ___
+
+📊 CONSERVATIVENESS METRICS:
+   Word retention: 100.0%
+   Length change: 2.4%
+   Medical terms preserved: ✗ No
+   Medical terms (orig): {'subsequently', 'Providencia', 'Cultures', 'grew'}
+   Medical terms (para): {'Subsequently', 'grew', 'Providencia', 'cultures'}
+
+📄 REPLACEMENT QUALITY:
+   ✓ Replacement successful
+
+📌 CONTEXT IN MODIFIED TEXT:
+   ...failure and anasarca # Acute bacterial UTI: Patient presented with fever and UA concerning for infection. Patient was started on empiric antibiotics. **Subsequently, cultures grew Providencia ___**. She completed 7 day course of Ciprofloxacin without symptom recurrence. # ___ # Acute diastolic CHF # Anasarca # Metabolic acidosis In setting of re......
+
+----------------------------------------------------------------------------------------------------
+CASE 5 - Rating: EXCELLENT
+----------------------------------------------------------------------------------------------------Traceback (most recent call last):
+  File "/scratch/yang.zih/miniconda3/envs/cot/lib/python3.11/site-packages/pandas/core/indexes/base.py", line 3812, in get_loc
+    return self._engine.get_loc(casted_key)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "pandas/_libs/index.pyx", line 167, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 196, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7088, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7096, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'original_text'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/scratch/yang.zih/cot/examine_paraphrases_v2.py", line 245, in main
+    results = examine_dataset(file_path, dataset_name)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/scratch/yang.zih/cot/examine_paraphrases_v2.py", line 130, in examine_dataset
+    original_text = row['original_text']
+                    ~~~^^^^^^^^^^^^^^^^^
+  File "/scratch/yang.zih/miniconda3/envs/cot/lib/python3.11/site-packages/pandas/core/series.py", line 1133, in __getitem__
+    return self._get_value(key)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/scratch/yang.zih/miniconda3/envs/cot/lib/python3.11/site-packages/pandas/core/series.py", line 1249, in _get_value
+    loc = self.index.get_loc(label)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/scratch/yang.zih/miniconda3/envs/cot/lib/python3.11/site-packages/pandas/core/indexes/base.py", line 3819, in get_loc
+    raise KeyError(key) from err
+KeyError: 'original_text'
+
+
+📝 ORIGINAL SENTENCE:
+   # Decompensated Hepatitis C Cirrhosis: Pt is currently listed for both standard criteria and extended criteria donation including ABO incompatible with a MELD score of 31 including ___ exception points
+
+📝 PARAPHRASED SENTENCE:
+   # Decompensated Hepatitis C Cirrhosis: Pt is currently listed for both standard criteria and extended criteria donation, including ABO incompatible, with a MELD score of 31, including ___ exception points
+
+📊 CONSERVATIVENESS METRICS:
+   Word retention: 100.0%
+   Length change: 1.5%
+   Medical terms preserved: ✓ Yes
+   Medical terms (orig): {'is', 'and', 'of', 'MELD', 'extended', 'including', 'donation', 'Pt', 'for', 'currently', 'incompatible', 'ABO', 'Cirrhosis', 'standard', 'both', 'exception', 'score', 'criteria', 'Hepatitis', 'with', 'points', 'listed', 'Decompensated'}
+   Medical terms (para): {'is', 'and', 'of', 'MELD', 'extended', 'including', 'donation', 'Pt', 'for', 'currently', 'incompatible', 'ABO', 'Cirrhosis', 'standard', 'both', 'exception', 'score', 'criteria', 'Hepatitis', 'with', 'points', 'listed', 'Decompensated'}
+
+📄 REPLACEMENT QUALITY:
+   ✓ Replacement successful
+
+📌 CONTEXT IN MODIFIED TEXT:
+   ...esis. Pt had paracentesis only prior to admission and post paracentesis RUQ ultrasound showed scant ascites. Pt is scheduled for paracentesis on ___. **# Decompensated Hepatitis C Cirrhosis: Pt is currently listed for both standard criteria and extended criteria donation, including ABO incompatible, with a MELD score of 31, including ___ exception points**. MELD on Admission was 18 (not including ___ exception points). Her Hep C viral load was found to be 1.5 million. Her currently decompensa...
+
+----------------------------------------------------------------------------------------------------
+CASE 6 - Rating: MODERATE
+----------------------------------------------------------------------------------------------------
+
+📝 ORIGINAL SENTENCE:
+   As mentioned earlier, an element of somatosensory amplification was thought to be present
+
+📝 PARAPHRASED SENTENCE:
+   As noted earlier, an element of somatosensory amplification was believed to be present.
+
+📊 CONSERVATIVENESS METRICS:
+   Word retention: 84.6%
+   Length change: 2.2%
+   Medical terms preserved: ✗ No
+   Words added: ['believed', 'noted']
+   Words removed: ['mentioned', 'thought']
+   Medical terms (orig): {'somatosensory', 'amplification', 'to', 'earlier', 'element', 'of', 'As', 'thought', 'present', 'mentioned', 'an', 'was', 'be'}
+   Medical terms (para): {'somatosensory', 'amplification', 'believed', 'to', 'earlier', 'element', 'noted', 'of', 'As', 'present', 'an', 'was', 'be'}
+
+📄 REPLACEMENT QUALITY:
+   ✓ Replacement successful
+
+📌 CONTEXT IN MODIFIED TEXT:
+   ...further work-up in the outpatient setting. # Anxiety: The patient demonstrated signs of significant anxiety, especially when discussing her symptoms. **As noted earlier, an element of somatosensory amplification was believed to be present.** In addition, body dysmorphic disorder may be considered given her perseveration on showing disgust at her recent thinness. Home lorazepam was continu......
+
+----------------------------------------------------------------------------------------------------
+CASE 7 - Rating: MODERATE
+----------------------------------------------------------------------------------------------------
+
+📝 ORIGINAL SENTENCE:
+   ERCP attempted stenting of ___ area, but stent would not ___ in place
+
+📝 PARAPHRASED SENTENCE:
+   Stenting of the ___ area was attempted during ERCP, but the stent would not ___ in place.
+
+📊 CONSERVATIVENESS METRICS:
+   Word retention: 100.0%
+   Length change: 29.0%
+   Medical terms preserved: ✗ No
+   Words added: ['during', 'the', 'was']
+   Medical terms (orig): {'but', 'stent', 'of', 'area', 'place', 'ERCP', 'not', 'in', 'attempted', 'would', 'stenting'}
+   Medical terms (para): {'but', 'stent', 'Stenting', 'of', 'the', 'area', 'during', 'place', 'ERCP', 'not', 'in', 'attempted', 'was', 'would'}
+
+📄 REPLACEMENT QUALITY:
+   ✓ Replacement successful
+
+📌 CONTEXT IN MODIFIED TEXT:
+   ...nd recent abdominal wall abscess: ___ evaluated and changed drain which was broken. CT showed collapsed cavity of prior abscess w/o fluid collection. **Stenting of the ___ area was attempted during ERCP, but the stent would not ___ in place.** There was suggestion of active Crohn's peristomally. A colonsocpy was performed on ___ which revealed a single aphthae at 20cm. Starting at 10cm ther......
+
+----------------------------------------------------------------------------------------------------
+CASE 8 - Rating: MODERATE
+----------------------------------------------------------------------------------------------------
+
+📝 ORIGINAL SENTENCE:
+   She had minimal cough and no difficulty breathing
+
+📝 PARAPHRASED SENTENCE:
+   She had minimal cough and did not have difficulty breathing.
+
+📊 CONSERVATIVENESS METRICS:
+   Word retention: 87.5%
+   Length change: 22.4%
+   Medical terms preserved: ✗ No
+   Words added: ['did', 'have', 'not']
+   Words removed: ['no']
+   Medical terms (orig): {'no', 'and', 'She', 'minimal', 'cough', 'difficulty', 'had', 'breathing'}
+   Medical terms (para): {'did', 'and', 'She', 'have', 'minimal', 'cough', 'difficulty', 'not', 'had', 'breathing'}
+
+📄 REPLACEMENT QUALITY:
+   ✓ Replacement successful
+
+📌 CONTEXT IN MODIFIED TEXT:
+   ...14.3 on admission but decreased to 7.0 the following day. # URI: Endorsed cough, weakness, and myalgias but fet better thoughout her hospital course. **She had minimal cough and did not have difficulty breathing.** Her respiratory function was monitored and she was given tylenol for symptom management. #HA: Complained of HA localized to L temple on the morning o......
+
+----------------------------------------------------------------------------------------------------
+CASE 9 - Rating: EXCELLENT
+----------------------------------------------------------------------------------------------------
+
+📝 ORIGINAL SENTENCE:
+   We started keppra for seizure prophylaxis, held her metoprolol, alprazolam and felodopine
+
+📝 PARAPHRASED SENTENCE:
+   We held her metoprolol, alprazolam and felodopine, and started keppra for seizure prophylaxis.
+
+📊 CONSERVATIVENESS METRICS:
+   Word retention: 100.0%
+   Length change: 5.6%
+   Medical terms preserved: ✓ Yes
+   Medical terms (orig): {'and', 'metoprolol', 'felodopine', 'for', 'We', 'seizure', 'keppra', 'started', 'held', 'her', 'alprazolam', 'prophylaxis'}
+   Medical terms (para): {'and', 'metoprolol', 'felodopine', 'for', 'We', 'her', 'held', 'started', 'keppra', 'seizure', 'alprazolam', 'prophylaxis'}
+
+📄 REPLACEMENT QUALITY:
+   ✓ Replacement successful
+
+📌 CONTEXT IN MODIFIED TEXT:
+   ...d continued to be orthostatic on the floor, though this did improve with some fluids initially. She was observed on telemetry which showed no events. **We held her metoprolol, alprazolam and felodopine, and started keppra for seizure prophylaxis.** Though she continued to be orthostatic and have some lightheadedness with standing upon discharge, we suspect that with the discontinuation of severa......
+
+====================================================================================================
+SUMMARY - BHCS
+====================================================================================================
+
+📊 CONSERVATIVENESS RATINGS:
+   EXCELLENT: 2/10 (20.0%)
+   GOOD: 0/10 (0.0%)
+   MODERATE: 8/10 (80.0%)
+   POOR: 0/10 (0.0%)
+
+📊 AVERAGE METRICS:
+   Word retention: 93.7%
+   Length change: 8.7%
+
+📊 REPLACEMENT ISSUES:
+   Cases with issues: 0/10
+
+====================================================================================================
+DIAGNOSISARENA - PARAPHRASING QUALITY EXAMINATION
+====================================================================================================
+
+📊 OVERVIEW:
+   Total cases: 10
+   Successful paraphrases: 8 (80.0%)
+   Failed paraphrases: 2 (20.0%)
+
+❌ Error examining DiagnosisArena: 'original_text'
+
+====================================================================================================
+MEDXPERTQA - PARAPHRASING QUALITY EXAMINATIONTraceback (most recent call last):
+  File "/scratch/yang.zih/miniconda3/envs/cot/lib/python3.11/site-packages/pandas/core/indexes/base.py", line 3812, in get_loc
+    return self._engine.get_loc(casted_key)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "pandas/_libs/index.pyx", line 167, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 196, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7088, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7096, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'original_text'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/scratch/yang.zih/cot/examine_paraphrases_v2.py", line 245, in main
+    results = examine_dataset(file_path, dataset_name)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/scratch/yang.zih/cot/examine_paraphrases_v2.py", line 130, in examine_dataset
+    original_text = row['original_text']
+                    ~~~^^^^^^^^^^^^^^^^^
+  File "/scratch/yang.zih/miniconda3/envs/cot/lib/python3.11/site-packages/pandas/core/series.py", line 1133, in __getitem__
+    return self._get_value(key)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/scratch/yang.zih/miniconda3/envs/cot/lib/python3.11/site-packages/pandas/core/series.py", line 1249, in _get_value
+    loc = self.index.get_loc(label)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/scratch/yang.zih/miniconda3/envs/cot/lib/python3.11/site-packages/pandas/core/indexes/base.py", line 3819, in get_loc
+    raise KeyError(key) from err
+KeyError: 'original_text'
+
+====================================================================================================
+
+📊 OVERVIEW:
+   Total cases: 10
+   Successful paraphrases: 9 (90.0%)
+   Failed paraphrases: 1 (10.0%)
+
+❌ Error examining MedXpertQA: 'original_text'
+
+====================================================================================================
+OVERALL SUMMARY - ALL DATASETS
+====================================================================================================
+
+BHCS:
+  Success rate: 10/10 (100.0%)
+  Excellent/Good: 2/10
+  Replacement issues: 0/10

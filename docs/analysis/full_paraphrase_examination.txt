@@ -1,0 +1,714 @@
+====================================================================================================
+BASELINE PARAPHRASING QUALITY EXAMINATION - ALL DATASETS
+====================================================================================================
+
+====================================================================================================
+BHCS - PARAPHRASING QUALITY EXAMINATION
+====================================================================================================
+
+📊 OVERVIEW:
+   Total cases: 10
+   Successful paraphrases: 10 (100.0%)
+   Failed paraphrases: 0 (0.0%)
+
+----------------------------------------------------------------------------------------------------
+CASE 0 - Rating: EXCELLENT
+----------------------------------------------------------------------------------------------------
+
+📝 ORIGINAL SENTENCE:
+   #L BKA Pre-operatively, she was started on vancomycin and zosyn, which was continued through POD#3
+
+📝 PARAPHRASED SENTENCE:
+   #L BKA Pre-operatively, she was started on vancomycin and zosyn, and these were continued through POD#3
+
+📊 CONSERVATIVENESS METRICS:
+   Word retention: 93.8%
+   Length change: 5.1%
+   Words added: ['these', 'were']
+   Words removed: ['which']
+
+📄 REPLACEMENT QUALITY:
+   ✓ Replacement successful
+
+📌 CONTEXT IN MODIFIED TEXT (snippet):
+   ...rcate. Given that the remainder of her infectious workup was negative, she was scheduled for a BKA. #L BKA Pre-operatively, she was started on vancomycin and zosyn, and these were continued through POD#3. She underwent an uncomplicated left below-knee amputation on ___, and which she tolerated well. A ......
+
+----------------------------------------------------------------------------------------------------
+CASE 1 - Rating: GOOD
+----------------------------------------------------------------------------------------------------
+
+📝 ORIGINAL SENTENCE:
+   She underwent bone marrow biopsy which was non-diagnostic
+
+📝 PARAPHRASED SENTENCE:
+   She underwent a non-diagnostic bone marrow biopsy.
+
+📊 CONSERVATIVENESS METRICS:
+   Word retention: 77.8%
+   Length change: 12.3%
+   Words added: ['a']
+   Words removed: ['was', 'which']
+
+📄 REPLACEMENT QUALITY:
+   ✓ Replacement successful
+
+📌 CONTEXT IN MODIFIED TEXT (snippet):
+   ... #ENCOUNTER FOR CHEMOTHERAPY: PET-CT showed FDG-avid spleen, liver, bone marrow, and abdominal LNs. She underwent a non-diagnostic bone marrow biopsy. She then underwent another bone marrow biopsy with ___ which did show abnormal cells but there were......
+
+----------------------------------------------------------------------------------------------------
+CASE 2 - Rating: EXCELLENT
+----------------------------------------------------------------------------------------------------
+
+📝 ORIGINAL SENTENCE:
+   # Anemia: Chronic microcytic anemia with baseline hct of 29; iron deficiency anemia vs anemia of chronic disease, CKD
+
+📝 PARAPHRASED SENTENCE:
+   Anemia: Baseline hct of 29 with chronic microcytic anemia; iron deficiency anemia vs anemia of chronic disease, CKD
+
+📊 CONSERVATIVENESS METRICS:
+   Word retention: 100.0%
+   Length change: 1.7%
+
+📄 REPLACEMENT QUALITY:
+   ✓ Replacement successful
+
+📌 CONTEXT IN MODIFIED TEXT (snippet):
+   ...inine was 2/t Bactrim and it should be rechecked as an outpt to ensure that it returns to baseline. Anemia: Baseline hct of 29 with chronic microcytic anemia; iron deficiency anemia vs anemia of chronic disease, CKD. Continued ferrous sulfate/ascorbic acid. #Hyperlipidemia: Dontinued simvastatin #SSS s/p PPM: Rece......
+
+----------------------------------------------------------------------------------------------------
+CASE 3 - Rating: EXCELLENT
+----------------------------------------------------------------------------------------------------
+
+📝 ORIGINAL SENTENCE:
+   After discussion with her health care proxy, ___, any procedure was felt not to be within her goals of care and the decision was made to transition the patient to comfort measures only with a preferen...
+
+📝 PARAPHRASED SENTENCE:
+   Following discussion with her health care proxy, ___, it was felt that any procedure was not within her goals of care, and the decision was made to transition the patient to comfort measures only, wit...
+
+📊 CONSERVATIVENESS METRICS:
+   Word retention: 93.5%
+   Length change: 5.1%
+   Words added: ['following', 'it', 'that']
+   Words removed: ['after', 'be']
+
+📄 REPLACEMENT QUALITY:
+   ✓ Replacement successful
+
+📌 CONTEXT IN MODIFIED TEXT (snippet):
+   ...ics, correction of her aortic stenosis would likely not significantly increase her quality of life. Following discussion with her health care proxy, ___, it was felt that any procedure was not within her goals of care, and the decision was made to transition the patient to comfort measures only, with a preference to transition to an ___ facility. # ___ on stage 3 CKD: Recent baseline Cr is ~0.8...
+
+----------------------------------------------------------------------------------------------------
+CASE 4 - Rating: EXCELLENT
+----------------------------------------------------------------------------------------------------
+
+📝 ORIGINAL SENTENCE:
+   Cultures subsequently grew Providencia ___
+
+📝 PARAPHRASED SENTENCE:
+   Subsequently, cultures grew Providencia ___
+
+📊 CONSERVATIVENESS METRICS:
+   Word retention: 100.0%
+   Length change: 2.4%
+
+📄 REPLACEMENT QUALITY:
+   ✓ Replacement successful
+
+📌 CONTEXT IN MODIFIED TEXT (snippet):
+   ...t presented with fever and UA concerning for infection. Patient was started on empiric antibiotics. Subsequently, cultures grew Providencia ___. She completed 7 day course of Ciprofloxacin without symptom recurrence. # ___ # Acute diastolic CH......
+
+----------------------------------------------------------------------------------------------------
+CASE 5 - Rating: EXCELLENT
+----------------------------------------------------------------------------------------------------
+
+📝 ORIGINAL SENTENCE:
+   # Decompensated Hepatitis C Cirrhosis: Pt is currently listed for both standard criteria and extended criteria donation including ABO incompatible with a MELD score of 31 including ___ exception point...
+
+📝 PARAPHRASED SENTENCE:
+   # Decompensated Hepatitis C Cirrhosis: Pt is currently listed for both standard criteria and extended criteria donation, including ABO incompatible, with a MELD score of 31, including ___ exception po...
+
+📊 CONSERVATIVENESS METRICS:
+   Word retention: 100.0%
+   Length change: 1.5%
+
+📄 REPLACEMENT QUALITY:
+   ✓ Replacement successful
+
+📌 CONTEXT IN MODIFIED TEXT (snippet):
+   ...and post paracentesis RUQ ultrasound showed scant ascites. Pt is scheduled for paracentesis on ___. # Decompensated Hepatitis C Cirrhosis: Pt is currently listed for both standard criteria and extended criteria donation, including ABO incompatible, with a MELD score of 31, including ___ exception points. MELD on Admission was 18 (not including ___ exception points). Her Hep C viral load was fou...
+
+----------------------------------------------------------------------------------------------------
+CASE 6 - Rating: GOOD
+----------------------------------------------------------------------------------------------------
+
+📝 ORIGINAL SENTENCE:
+   As mentioned earlier, an element of somatosensory amplification was thought to be present
+
+📝 PARAPHRASED SENTENCE:
+   As noted earlier, an element of somatosensory amplification was believed to be present.
+
+📊 CONSERVATIVENESS METRICS:
+   Word retention: 84.6%
+   Length change: 2.2%
+   Words added: ['believed', 'noted']
+   Words removed: ['mentioned', 'thought']
+
+📄 REPLACEMENT QUALITY:
+   ✓ Replacement successful
+
+📌 CONTEXT IN MODIFIED TEXT (snippet):
+   ...ty: The patient demonstrated signs of significant anxiety, especially when discussing her symptoms. As noted earlier, an element of somatosensory amplification was believed to be present. In addition, body dysmorphic disorder may be considered given her perseveration on showing disgust ......
+
+----------------------------------------------------------------------------------------------------
+CASE 7 - Rating: GOOD
+----------------------------------------------------------------------------------------------------
+
+📝 ORIGINAL SENTENCE:
+   ERCP attempted stenting of ___ area, but stent would not ___ in place
+
+📝 PARAPHRASED SENTENCE:
+   Stenting of the ___ area was attempted during ERCP, but the stent would not ___ in place.
+
+📊 CONSERVATIVENESS METRICS:
+   Word retention: 100.0%
+   Length change: 29.0%
+   Words added: ['during', 'the', 'was']
+
+📄 REPLACEMENT QUALITY:
+   ✓ Replacement successful
+
+📌 CONTEXT IN MODIFIED TEXT (snippet):
+   ...d changed drain which was broken. CT showed collapsed cavity of prior abscess w/o fluid collection. Stenting of the ___ area was attempted during ERCP, but the stent would not ___ in place. There was suggestion of active Crohn's peristomally. A colonsocpy was performed on ___ which reveal......
+
+----------------------------------------------------------------------------------------------------
+CASE 8 - Rating: GOOD
+----------------------------------------------------------------------------------------------------
+
+📝 ORIGINAL SENTENCE:
+   She had minimal cough and no difficulty breathing
+
+📝 PARAPHRASED SENTENCE:
+   She had minimal cough and did not have difficulty breathing.
+
+📊 CONSERVATIVENESS METRICS:
+   Word retention: 87.5%
+   Length change: 22.4%
+   Words added: ['did', 'have', 'not']
+   Words removed: ['no']
+
+📄 REPLACEMENT QUALITY:
+   ✓ Replacement successful
+
+📌 CONTEXT IN MODIFIED TEXT (snippet):
+   ...ng day. # URI: Endorsed cough, weakness, and myalgias but fet better thoughout her hospital course. She had minimal cough and did not have difficulty breathing. Her respiratory function was monitored and she was given tylenol for symptom management. #HA: Compl......
+
+----------------------------------------------------------------------------------------------------
+CASE 9 - Rating: EXCELLENT
+----------------------------------------------------------------------------------------------------
+
+📝 ORIGINAL SENTENCE:
+   We started keppra for seizure prophylaxis, held her metoprolol, alprazolam and felodopine
+
+📝 PARAPHRASED SENTENCE:
+   We held her metoprolol, alprazolam and felodopine, and started keppra for seizure prophylaxis.
+
+📊 CONSERVATIVENESS METRICS:
+   Word retention: 100.0%
+   Length change: 5.6%
+
+📄 REPLACEMENT QUALITY:
+   ✓ Replacement successful
+
+📌 CONTEXT IN MODIFIED TEXT (snippet):
+   ... this did improve with some fluids initially. She was observed on telemetry which showed no events. We held her metoprolol, alprazolam and felodopine, and started keppra for seizure prophylaxis. Though she continued to be orthostatic and have some lightheadedness with standing upon discharge, ......
+
+====================================================================================================
+SUMMARY - BHCS
+====================================================================================================
+
+📊 CONSERVATIVENESS RATINGS:
+   EXCELLENT: 6/10 (60.0%)
+   GOOD: 4/10 (40.0%)
+   MODERATE: 0/10 (0.0%)
+   POOR: 0/10 (0.0%)
+
+📊 AVERAGE METRICS:
+   Word retention: 93.7%
+   Length change: 8.7%
+
+📊 REPLACEMENT ISSUES:
+   Cases with issues: 0/10
+
+====================================================================================================
+DIAGNOSISARENA - PARAPHRASING QUALITY EXAMINATION
+====================================================================================================
+
+📊 OVERVIEW:
+   Total cases: 10
+   Successful paraphrases: 8 (80.0%)
+   Failed paraphrases: 2 (20.0%)
+
+====================================================================================================
+CASE 0 - ⚠️ PARAPHRASE FAILED
+====================================================================================================
+
+----------------------------------------------------------------------------------------------------
+CASE 1 - Rating: EXCELLENT
+Selected Field: case_information
+----------------------------------------------------------------------------------------------------
+
+📝 ORIGINAL SENTENCE:
+   A female patient in her early 50s presented with multiple (approximately 10) bluish, partially keratotic papules and nodules on the lower legs
+
+📝 PARAPHRASED SENTENCE:
+   A female patient in her early 50s presented with approximately 10 bluish, partially keratotic papules and nodules on the lower legs.
+
+📊 CONSERVATIVENESS METRICS:
+   Word retention: 95.5%
+   Length change: 7.0%
+   Words removed: ['multiple']
+
+📄 REPLACEMENT QUALITY:
+   ✓ Replacement successful
+
+📌 CONTEXT IN MODIFIED TEXT (snippet):
+   A female patient in her early 50s presented with approximately 10 bluish, partially keratotic papules and nodules on the lower legs. The lesions had been growing very slowly in number and size since age 24 and had been bleeding occa......
+
+----------------------------------------------------------------------------------------------------
+CASE 2 - Rating: EXCELLENT
+Selected Field: physical_examination
+----------------------------------------------------------------------------------------------------
+
+📝 ORIGINAL SENTENCE:
+   Multiple firm, nonscaly, purple erythematous patches and plaques with irregular borders on her left axilla, medial upper arm, and lateral thoracic region
+
+📝 PARAPHRASED SENTENCE:
+   On her left axilla, medial upper arm, and lateral thoracic region, there are multiple firm, nonscaly, purple erythematous patches and plaques with irregular borders.
+
+📊 CONSERVATIVENESS METRICS:
+   Word retention: 100.0%
+   Length change: 7.8%
+   Words added: ['are', 'there']
+
+📄 REPLACEMENT QUALITY:
+   ✓ Replacement successful
+
+📌 CONTEXT IN MODIFIED TEXT (snippet):
+   On her left axilla, medial upper arm, and lateral thoracic region, there are multiple firm, nonscaly, purple erythematous patches and plaques with irregular borders. No extracutaneous involvement was observed....
+
+----------------------------------------------------------------------------------------------------
+CASE 3 - Rating: EXCELLENT
+Selected Field: case_information
+----------------------------------------------------------------------------------------------------
+
+📝 ORIGINAL SENTENCE:
+   He was born to healthy parents and did not have any medical disease
+
+📝 PARAPHRASED SENTENCE:
+   He did not have any medical disease and was born to healthy parents.
+
+📊 CONSERVATIVENESS METRICS:
+   Word retention: 100.0%
+   Length change: 1.5%
+
+📄 REPLACEMENT QUALITY:
+   ✓ Replacement successful
+
+📌 CONTEXT IN MODIFIED TEXT (snippet):
+   ...t thigh and buttock for 7 years. Recently, the motion of his right limb joint was slightly limited. He did not have any medical disease and was born to healthy parents....
+
+----------------------------------------------------------------------------------------------------
+CASE 4 - Rating: EXCELLENT
+Selected Field: case_information
+----------------------------------------------------------------------------------------------------
+
+📝 ORIGINAL SENTENCE:
+   The plaque progressively increased in size, and similar plaques developed over the back, right dorsal surface of the hand, suprapubic area, and right thigh over the last 4 years
+
+📝 PARAPHRASED SENTENCE:
+   Over the last 4 years, the plaque progressively increased in size, and similar plaques developed over the back, right dorsal surface of the hand, suprapubic area, and right thigh.
+
+📊 CONSERVATIVENESS METRICS:
+   Word retention: 100.0%
+   Length change: 1.1%
+
+📄 REPLACEMENT QUALITY:
+   ✓ Replacement successful
+
+📌 CONTEXT IN MODIFIED TEXT (snippet):
+   ...erythematous indurated plaque involving the face and neck that had been first noted at age 2 years. Over the last 4 years, the plaque progressively increased in size, and similar plaques developed over the back, right dorsal surface of the hand, suprapubic area, and right thigh. Scarring developed in the plaques over the face and hand during the course of the disease and led t......
+
+----------------------------------------------------------------------------------------------------
+CASE 5 - Rating: EXCELLENT
+Selected Field: case_information
+----------------------------------------------------------------------------------------------------
+
+📝 ORIGINAL SENTENCE:
+   No family history of similar skin problems and no history of hyperhidrosis, cystic fibrosis, atopy, or trauma to the hands
+
+📝 PARAPHRASED SENTENCE:
+   There is no family history of similar skin problems, and no history of hyperhidrosis, cystic fibrosis, atopy, or trauma to the hands.
+
+📊 CONSERVATIVENESS METRICS:
+   Word retention: 100.0%
+   Length change: 9.0%
+   Words added: ['is', 'there']
+
+📄 REPLACEMENT QUALITY:
+   ✓ Replacement successful
+
+📌 CONTEXT IN MODIFIED TEXT (snippet):
+   ... past 1.5 years. He attributed these changes to frequent hand washing during the COVID-19 epidemic. There is no family history of similar skin problems, and no history of hyperhidrosis, cystic fibrosis, atopy, or trauma to the hands....
+
+====================================================================================================
+CASE 6 - ⚠️ PARAPHRASE FAILED
+====================================================================================================
+
+----------------------------------------------------------------------------------------------------
+CASE 7 - Rating: EXCELLENT
+Selected Field: case_information
+----------------------------------------------------------------------------------------------------
+
+📝 ORIGINAL SENTENCE:
+   A 59-year-old woman presented with 2 days of left orbital pain
+
+📝 PARAPHRASED SENTENCE:
+   A 59-year-old woman presented after 2 days of left orbital pain
+
+📊 CONSERVATIVENESS METRICS:
+   Word retention: 92.3%
+   Length change: 1.6%
+   Words added: ['after']
+   Words removed: ['with']
+
+📄 REPLACEMENT QUALITY:
+   ✓ Replacement successful
+
+📌 CONTEXT IN MODIFIED TEXT (snippet):
+   A 59-year-old woman presented after 2 days of left orbital pain. Medical history was significant for hypertension controlled with lisinopril and several months of ......
+
+----------------------------------------------------------------------------------------------------
+CASE 8 - Rating: EXCELLENT
+Selected Field: case_information
+----------------------------------------------------------------------------------------------------
+
+📝 ORIGINAL SENTENCE:
+   Initially, obstructive sleep apnea was considered but she failed to improve with bilevel positive pressure ventilation and was transferred for further management
+
+📝 PARAPHRASED SENTENCE:
+   Obstructive sleep apnea was initially considered; however, she failed to improve with bilevel positive pressure ventilation and was transferred for further management.
+
+📊 CONSERVATIVENESS METRICS:
+   Word retention: 95.2%
+   Length change: 3.7%
+   Words added: ['however']
+   Words removed: ['but']
+
+📄 REPLACEMENT QUALITY:
+   ✓ Replacement successful
+
+📌 CONTEXT IN MODIFIED TEXT (snippet):
+   ...ecame increasingly somnolent with urinary incontinence, constipation, and decreased gait stability. Obstructive sleep apnea was initially considered; however, she failed to improve with bilevel positive pressure ventilation and was transferred for further management....
+
+----------------------------------------------------------------------------------------------------
+CASE 9 - Rating: GOOD
+Selected Field: case_information
+----------------------------------------------------------------------------------------------------
+
+📝 ORIGINAL SENTENCE:
+   No history of trauma or tongue bite preceding the lesion
+
+📝 PARAPHRASED SENTENCE:
+   Prior to the lesion, there was no history of trauma or tongue bite.
+
+📊 CONSERVATIVENESS METRICS:
+   Word retention: 90.0%
+   Length change: 19.6%
+   Words added: ['prior', 'there', 'to', 'was']
+   Words removed: ['preceding']
+
+📄 REPLACEMENT QUALITY:
+   ✓ Replacement successful
+
+📌 CONTEXT IN MODIFIED TEXT (snippet):
+   ...f the tongue, which gradually grew and subsequently ulcerated. It caused mild difficulty in eating. Prior to the lesion, there was no history of trauma or tongue bite. Patient denied consuming tobacco or alcohol regularly. Medical history includes well-controlled typ......
+
+====================================================================================================
+SUMMARY - DiagnosisArena
+====================================================================================================
+
+📊 CONSERVATIVENESS RATINGS:
+   EXCELLENT: 7/8 (87.5%)
+   GOOD: 1/8 (12.5%)
+   MODERATE: 0/8 (0.0%)
+   POOR: 0/8 (0.0%)
+
+📊 AVERAGE METRICS:
+   Word retention: 96.6%
+   Length change: 6.4%
+
+📊 REPLACEMENT ISSUES:
+   Cases with issues: 0/8
+
+====================================================================================================
+MEDXPERTQA - PARAPHRASING QUALITY EXAMINATION
+====================================================================================================
+
+📊 OVERVIEW:
+   Total cases: 10
+   Successful paraphrases: 9 (90.0%)
+   Failed paraphrases: 1 (10.0%)
+
+----------------------------------------------------------------------------------------------------
+CASE 0 - Rating: EXCELLENT
+----------------------------------------------------------------------------------------------------
+
+📝 ORIGINAL SENTENCE:
+   One of the blood cultures drawn 12 hours ago returns positive for Staphylococcus aureus
+
+📝 PARAPHRASED SENTENCE:
+   One of the blood cultures drawn 12 hours ago is positive for Staphylococcus aureus
+
+📊 CONSERVATIVENESS METRICS:
+   Word retention: 92.9%
+   Length change: 5.7%
+   Words added: ['is']
+   Words removed: ['returns']
+
+📄 REPLACEMENT QUALITY:
+   ✓ Replacement successful
+
+📌 CONTEXT IN MODIFIED TEXT (snippet):
+   ...der and with inspiration. He is admitted to the hospital and started on broad-spectrum antibiotics. One of the blood cultures drawn 12 hours ago is positive for Staphylococcus aureus. Which of the following is the most appropriate next step to confirm the diagnosis?
+Answer Choices:......
+
+----------------------------------------------------------------------------------------------------
+CASE 1 - Rating: EXCELLENT
+----------------------------------------------------------------------------------------------------
+
+📝 ORIGINAL SENTENCE:
+   A 25-year-old woman is brought to the psychiatric emergency department in restraints after attempting to break into a deli at midnight
+
+📝 PARAPHRASED SENTENCE:
+   At midnight, a 25-year-old woman in restraints is brought to the psychiatric emergency department after attempting to break into a deli.
+
+📊 CONSERVATIVENESS METRICS:
+   Word retention: 100.0%
+   Length change: 1.5%
+
+📄 REPLACEMENT QUALITY:
+   ✓ Replacement successful
+
+📌 CONTEXT IN MODIFIED TEXT (snippet):
+   At midnight, a 25-year-old woman in restraints is brought to the psychiatric emergency department after attempting to break into a deli. She claims to have a groundbreaking idea for the shipping industry. The patient is agitated but non......
+
+----------------------------------------------------------------------------------------------------
+CASE 2 - Rating: EXCELLENT
+----------------------------------------------------------------------------------------------------
+
+📝 ORIGINAL SENTENCE:
+   His temperature is 103°F (39.4°C), blood pressure is 100/64 mmHg, pulse is 155/min, respirations are 29/min, and oxygen saturation is 95% on room air
+
+📝 PARAPHRASED SENTENCE:
+   His temperature measures 103°F (39.4°C), blood pressure is 100/64 mmHg, pulse is 155/min, respirations are 29/min, and oxygen saturation is 95% on room air
+
+📊 CONSERVATIVENESS METRICS:
+   Word retention: 100.0%
+   Length change: 4.0%
+   Words added: ['measures']
+
+📄 REPLACEMENT QUALITY:
+   ✓ Replacement successful
+
+📌 CONTEXT IN MODIFIED TEXT (snippet):
+   ...hild is normally healthy, up to date on all childhood vaccinations, and takes a daily multivitamin. His temperature measures 103°F (39.4°C), blood pressure is 100/64 mmHg, pulse is 155/min, respirations are 29/min, and oxygen saturation is 95% on room air. On examination, he appears ill, is drooling, and leans forward to breathe. He is nonverbal, visibl......
+
+----------------------------------------------------------------------------------------------------
+CASE 3 - Rating: GOOD
+----------------------------------------------------------------------------------------------------
+
+📝 ORIGINAL SENTENCE:
+   He reports feeling generally well but notes intermittent fevers reaching 39°C and increased appetite
+
+📝 PARAPHRASED SENTENCE:
+   He otherwise feels generally well but reports intermittent fevers reaching 39°C and increased appetite.
+
+📊 CONSERVATIVENESS METRICS:
+   Word retention: 86.7%
+   Length change: 3.0%
+   Words added: ['feels', 'otherwise']
+   Words removed: ['feeling', 'notes']
+
+📄 REPLACEMENT QUALITY:
+   ✓ Replacement successful
+
+📌 CONTEXT IN MODIFIED TEXT (snippet):
+   ... The tumor was initially discovered during investigation of delayed puberty and panhypopituitarism. He otherwise feels generally well but reports intermittent fevers reaching 39°C and increased appetite.
+
+His medication regimen includes:
+- Levothyroxine 112 μg daily
+- Hydrocortisone (20 mg morning, 10 ......
+
+----------------------------------------------------------------------------------------------------
+CASE 4 - Rating: EXCELLENT
+----------------------------------------------------------------------------------------------------
+
+📝 ORIGINAL SENTENCE:
+   A 42-year-old male teacher presents for his annual physical examination in June, four weeks before his planned month-long trip to Taiwan
+
+📝 PARAPHRASED SENTENCE:
+   In June, a 42-year-old male teacher presents for his annual physical examination, four weeks before his planned month-long trip to Taiwan.
+
+📊 CONSERVATIVENESS METRICS:
+   Word retention: 100.0%
+   Length change: 1.5%
+
+📄 REPLACEMENT QUALITY:
+   ✓ Replacement successful
+
+📌 CONTEXT IN MODIFIED TEXT (snippet):
+   In June, a 42-year-old male teacher presents for his annual physical examination, four weeks before his planned month-long trip to Taiwan. His medical history includes allergic rhinitis and hypertension, managed with fluticasone and lisin......
+
+----------------------------------------------------------------------------------------------------
+CASE 5 - Rating: GOOD
+----------------------------------------------------------------------------------------------------
+
+📝 ORIGINAL SENTENCE:
+   Past medical history is significant for a mitral valve replacement five years ago
+
+📝 PARAPHRASED SENTENCE:
+   Significant past medical history includes a mitral valve replacement five years ago.
+
+📊 CONSERVATIVENESS METRICS:
+   Word retention: 84.6%
+   Length change: 3.7%
+   Words added: ['includes']
+   Words removed: ['for', 'is']
+
+📄 REPLACEMENT QUALITY:
+   ✓ Replacement successful
+
+📌 CONTEXT IN MODIFIED TEXT (snippet):
+   ...malaise. He also says he has lost 9 kg (20 lb) during this period and suffers from extreme fatigue. Significant past medical history includes a mitral valve replacement five years ago. His temperature is 38.1°C (100.6°F), respirations are 22/min, pulse is 102/min, and blood pressure ......
+
+====================================================================================================
+CASE 6 - ⚠️ PARAPHRASE FAILED
+====================================================================================================
+
+----------------------------------------------------------------------------------------------------
+CASE 7 - Rating: EXCELLENT
+----------------------------------------------------------------------------------------------------
+
+📝 ORIGINAL SENTENCE:
+   He reports generally good health but has recently experienced weight loss, abdominal pain, and generalized fatigue
+
+📝 PARAPHRASED SENTENCE:
+   He generally reports good health but has recently experienced weight loss, abdominal pain, and generalized fatigue.
+
+📊 CONSERVATIVENESS METRICS:
+   Word retention: 100.0%
+   Length change: 0.9%
+
+📄 REPLACEMENT QUALITY:
+   ✓ Replacement successful
+
+📌 CONTEXT IN MODIFIED TEXT (snippet):
+   A 59-year-old male presents to his primary care physician with complaints of fatigue. He generally reports good health but has recently experienced weight loss, abdominal pain, and generalized fatigue. His medical history includes anxiety, diabetes, a foot fracture from tripping, and a recent cold th......
+
+----------------------------------------------------------------------------------------------------
+CASE 8 - Rating: EXCELLENT
+----------------------------------------------------------------------------------------------------
+
+📝 ORIGINAL SENTENCE:
+   His vital signs show: temperature 98.5°F (36.9°C), blood pressure 123/81 mmHg, heart rate 90/min, respiratory rate 13/min, and oxygen saturation 97% on room air
+
+📝 PARAPHRASED SENTENCE:
+   His vital signs are as follows: temperature 98.5°F (36.9°C), blood pressure 123/81 mmHg, heart rate 90/min, respiratory rate 13/min, and oxygen saturation 97% on room air.
+
+📊 CONSERVATIVENESS METRICS:
+   Word retention: 96.6%
+   Length change: 6.9%
+   Words added: ['are', 'as', 'follows']
+   Words removed: ['show']
+
+📄 REPLACEMENT QUALITY:
+   ✓ Replacement successful
+
+📌 CONTEXT IN MODIFIED TEXT (snippet):
+   ...rior history of epistaxis. His medications include metoprolol and warfarin for atrial fibrillation. His vital signs are as follows: temperature 98.5°F (36.9°C), blood pressure 123/81 mmHg, heart rate 90/min, respiratory rate 13/min, and oxygen saturation 97% on room air. The patient appears comfortable and not in distress. Examination reveals active bleeding from the a......
+
+----------------------------------------------------------------------------------------------------
+CASE 9 - Rating: EXCELLENT
+----------------------------------------------------------------------------------------------------
+
+📝 ORIGINAL SENTENCE:
+   She has been receiving long-term corticosteroids for ITP and has undergone multiple treatments with intravenous immunoglobulin (IVIG) and rituximab
+
+📝 PARAPHRASED SENTENCE:
+   For ITP, she has been receiving long-term corticosteroids and has undergone multiple treatments with intravenous immunoglobulin (IVIG) and rituximab.
+
+📊 CONSERVATIVENESS METRICS:
+   Word retention: 100.0%
+   Length change: 1.4%
+
+📄 REPLACEMENT QUALITY:
+   ✓ Replacement successful
+
+📌 CONTEXT IN MODIFIED TEXT (snippet):
+   ...th chronic idiopathic thrombocytopenic purpura (ITP) visits her hematologist for routine follow-up. For ITP, she has been receiving long-term corticosteroids and has undergone multiple treatments with intravenous immunoglobulin (IVIG) and rituximab. Laboratory results show a white blood cell count of 8, hematocrit of 35, and platelet count of 14. ......
+
+====================================================================================================
+SUMMARY - MedXpertQA
+====================================================================================================
+
+📊 CONSERVATIVENESS RATINGS:
+   EXCELLENT: 7/9 (77.8%)
+   GOOD: 2/9 (22.2%)
+   MODERATE: 0/9 (0.0%)
+   POOR: 0/9 (0.0%)
+
+📊 AVERAGE METRICS:
+   Word retention: 95.6%
+   Length change: 3.2%
+
+📊 REPLACEMENT ISSUES:
+   Cases with issues: 0/9
+
+====================================================================================================
+OVERALL SUMMARY - ALL DATASETS
+====================================================================================================
+
+BHCS:
+  Success rate: 10/10 (100.0%)
+  Excellent/Good: 10/10 (100.0%)
+  Average word retention: 93.7%
+  Average length change: 8.7%
+  Replacement issues: 0/10
+
+DiagnosisArena:
+  Success rate: 8/10 (80.0%)
+  Excellent/Good: 8/8 (100.0%)
+  Average word retention: 96.6%
+  Average length change: 6.4%
+  Replacement issues: 0/8
+
+MedXpertQA:
+  Success rate: 9/10 (90.0%)
+  Excellent/Good: 9/9 (100.0%)
+  Average word retention: 95.6%
+  Average length change: 3.2%
+  Replacement issues: 0/9
+
+====================================================================================================
+CONCLUSION
+====================================================================================================
+
+The paraphrasing quality is assessed across three dimensions:
+1. CONSERVATIVENESS: How much the sentence changed
+2. REPLACEMENT QUALITY: Whether the sentence swap worked correctly
+3. OVERALL RATING: EXCELLENT (>90% retention, <15% length change)
+                   GOOD (>75% retention, <30% length change)
+                   MODERATE (>60% retention, <50% length change)
+
+Most paraphrases should be EXCELLENT or GOOD to ensure
+we're measuring baseline sensitivity, not semantic changes.
