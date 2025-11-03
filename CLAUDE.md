@@ -97,6 +97,69 @@ python file2_baseline_analysis.py --test-mode
 
 ---
 
+## 🧪 COMPREHENSIVE TESTING REQUIREMENT
+
+**EVERY CODE CHANGE MUST HAVE CORRESPONDING TESTS. NO EXCEPTIONS.**
+
+### Testing Requirement
+
+- **Mandatory**: All new code requires corresponding tests before committing
+- **Coverage**: 100% test coverage required for all new code
+- **No exceptions**: Bug fixes, new features, refactoring all require tests
+
+### When to Write Tests
+
+- Adding new functionality
+- Modifying existing functions
+- Fixing bugs (regression prevention)
+- Refactoring code (ensure behavior unchanged)
+
+### What to Test
+
+**Test ALL possible behaviors induced by your changes**, including:
+
+- **Research Rigor**: Ensure scientific validity maintained
+- **Edge Cases**: Empty inputs, malformed data, boundary conditions, unusual patterns
+- **Consistency**: Components that should remain identical across analyses/scripts are indeed identical
+- **Determinism**: Results reproducible where expected
+- **All Code Paths**: Every branch, condition, and error handling path
+
+### Running Tests
+
+```bash
+# Before ANY commit
+pytest tests/ -v                           # Full suite must pass
+pytest tests/ --cov=src --cov-report=html  # Verify 100% coverage for new code
+
+# During development
+pytest tests/test_<relevant_module>.py -v  # Run relevant subset
+```
+
+### Test Quality Standards
+
+- Descriptive test names explaining what is tested
+- Docstrings explaining WHY the test matters
+- Tests should be self-documenting
+- One assertion per test when possible
+
+### Scientific Rigor in Testing
+
+Tests must verify:
+- Experimental control maintained (only intended variable changes)
+- Consistency maintained where required
+- No unintended side effects
+
+### Important Note About Examples
+
+**CRITICAL**: Examples throughout this document (Bug 1 & 2, filtering discrepancies, etc.) are provided to help you **understand principles**, NOT as rigid checklists.
+
+When you encounter new situations:
+- **DO**: Apply the underlying principles (experimental control, consistency, validation)
+- **DON'T**: Blindly check if specific examples apply
+- **THINK**: What consistency matters for THIS specific change?
+
+---
+
 ## Project Overview
 
 This repository contains a medical data analysis project focused on Brief Hospital Course Summary (BHCS) data processing. The project includes both the original Jupyter notebook (`bhcs_data.ipynb`) and a complete Python script (`bhcs_analysis.py`) that processes medical text data using open source language models.
