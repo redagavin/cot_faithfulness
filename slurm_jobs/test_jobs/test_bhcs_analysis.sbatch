@@ -65,7 +65,7 @@ echo ""
 echo "============================================================"
 echo "Starting BHCS TEST analysis (5 samples)..."
 echo "============================================================"
-cd /scratch/yang.zih/cot
+cd /scratch/yang.zih/cot_faithfulness
 
 python src/test_bhcs_analysis.py
 

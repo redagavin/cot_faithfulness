@@ -52,7 +52,7 @@ python -c "import torch; print(f'GPU count: {torch.cuda.device_count()}')" 2>/de
 
 # Run the analysis
 echo "Starting BHCS analysis..."
-cd /scratch/yang.zih/cot
+cd /scratch/yang.zih/cot_faithfulness
 
 # Run with full dataset (remove sample_size parameter from main() for complete analysis)
 python src/bhcs_analysis.py
