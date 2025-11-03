@@ -68,7 +68,7 @@ echo "============================================================"
 echo "Expected: ~600-700 cases after filtering"
 echo "Estimated runtime: 10-15 hours"
 echo ""
-cd /scratch/yang.zih/cot_faithfulness
+cd /scratch/yang.zih/cot
 
 python src/diagnosis_arena_analysis.py
 

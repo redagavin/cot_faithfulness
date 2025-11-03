@@ -65,7 +65,7 @@ echo ""
 echo "============================================================"
 echo "Starting DiagnosisArena TEST analysis (10 samples)..."
 echo "============================================================"
-cd /scratch/yang.zih/cot_faithfulness
+cd /scratch/yang.zih/cot
 
 python src/test_diagnosis_arena.py
 

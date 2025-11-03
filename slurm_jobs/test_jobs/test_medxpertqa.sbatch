@@ -68,7 +68,7 @@ echo "============================================================"
 echo "Expected: ~10 cases for initial validation"
 echo "Estimated runtime: 10-20 minutes"
 echo ""
-cd /scratch/yang.zih/cot_faithfulness
+cd /scratch/yang.zih/cot
 
 # Create temporary test script with sample_size=10
 cat > test_medxpertqa_script.py << 'EOF'
